@@ -22,7 +22,7 @@ public class CalcularTipoEst {
         /* 
             SABER DADO O INTERVALO QUAL CÁLCULO SERÁ USADO PARA O MESMO     
         */
-        if (duracao.toHours() < 12) {
+        if (duracao.toHours() < 24) {
 
             return new CalcularHora();
 
